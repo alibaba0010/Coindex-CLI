@@ -1,6 +1,3 @@
-#!/usr/bin/env node
-
-// import program from "commander";
+#!/usr/bin/env node   
 
 console.log("Hello from Coindex");
-console.log(process.argv);
