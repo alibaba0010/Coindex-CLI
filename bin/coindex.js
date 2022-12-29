@@ -9,4 +9,5 @@ const pkg = require("../package.json");
 program
   .version(pkg.name)
   .command("key", "Manage API Key --https://nomics.com")
+  .command("check", "Check crypto coin price")
   .parse(process.argv);

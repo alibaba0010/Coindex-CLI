@@ -20,3 +20,12 @@ coindex -h
 
 # Version
 coindex -V
+
+# API Key Commands
+coindex key set
+coindex key show
+coindex key remove
+
+# Crypto Check Commands
+coindex check price, stats
+```
