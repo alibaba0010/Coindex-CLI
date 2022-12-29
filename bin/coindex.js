@@ -1,8 +1,12 @@
 #!/usr/bin/env node
 
-// import program from "commander";
+import { program } from "commander";
+import { createRequire } from "module";
+const require = createRequire(import.meta.url);
 
-console.log("Hello from Coindex");
-console.log(process.argv);
+const pkg = require("../package.json");
 
-console.log("Hello from Coindex");
+program
+  .version(pkg.name)
+  .command("key", "Manage API Key --https://nomics.com")
+  .parse(process.argv);

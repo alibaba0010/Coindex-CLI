@@ -1,3 +1,22 @@
 # Coindex CLI
 
-Command line interface written in Node
+Command line interface written in Node.js to check cryptocurrency prices.
+
+Register an API key at https://nomics.com
+
+## Usage
+
+```
+npm install
+
+npm link
+```
+
+## Commands
+
+```
+# Help & Commands
+coindex -h
+
+# Version
+coindex -V
