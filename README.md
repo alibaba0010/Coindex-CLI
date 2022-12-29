@@ -29,3 +29,9 @@ coindex key remove
 # Crypto Check Commands
 coindex check price, stats
 ```
+# Check Specific Coins (default: BTN,ETH,XRP)
+coindex check --coin=BTC,ETH,XRP
+
+# Choose Currency (Default: USD)
+coindex check --cur=USD
+```
